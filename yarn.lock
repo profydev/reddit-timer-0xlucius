@@ -1374,6 +1374,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/bitter@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/bitter/-/bitter-4.5.3.tgz#12b179dc19e57af56e594faa64a95e7f47161b9d"
+  integrity sha512-rVTuLJ40U0EkEeiTcK3PI7PDRVxgW4LRkUI2gev+SjJFtdIKKlcWGPD/EoYMS1rtkoXfbf+KolzkjvTZ6on+Rw==
+
+"@fontsource/montserrat@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-4.5.5.tgz#3408b8a20285a81b0743087bae5ed7aaa32c490c"
+  integrity sha512-JEFI803levuRx3D0Lry4WoM/Azrc3xpHlogi2022Y8ykaAenXvrjMym2BVU1W5QsuRIL86vrSUaxchO7Vk4CIw==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"

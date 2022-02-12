@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Normalize } from "styled-normalize";
+import "@fontsource/bitter";
+import "@fontsource/montserrat";
 import App from "./App";
 
 const Root = () => (

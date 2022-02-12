@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/bitter": "^4.5.3",
+    "@fontsource/montserrat": "^4.5.5",
     "@testing-library/dom": "^8.11.3",
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^11.2.2",
