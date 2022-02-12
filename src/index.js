@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Normalize } from 'styled-normalize';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Normalize } from "styled-normalize";
+import App from "./App";
 
 const Root = () => (
   <>
@@ -11,4 +11,4 @@ const Root = () => (
 );
 
 // eslint-disable-next-line react/jsx-filename-extension
-ReactDOM.render(<Root />, document.getElementById('root'));
+ReactDOM.render(<Root />, document.getElementById("root"));
