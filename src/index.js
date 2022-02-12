@@ -5,8 +5,18 @@ import "@fontsource/bitter";
 import "@fontsource/montserrat";
 import App from "./App";
 
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: "montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #93918f;
+  }
+`;
+
 const Root = () => (
   <>
+    <GlobalStyle />
     <Normalize />
     <App />
   </>
