@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Normalize } from "styled-normalize";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "@fontsource/bitter";
 import "@fontsource/montserrat";
 import App from "./App";
@@ -18,7 +19,12 @@ const Root = () => (
   <>
     <GlobalStyle />
     <Normalize />
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="search" element={} />
+      </Routes>
+    </BrowserRouter>
   </>
 );
 
