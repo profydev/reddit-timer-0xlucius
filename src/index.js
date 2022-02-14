@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Normalize } from "styled-normalize";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { createGlobalStyle } from "styled-components";
 import "@fontsource/bitter";
 import "@fontsource/montserrat";
 import App from "./App";
@@ -15,18 +16,20 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const Root = () => (
-  <>
-    <GlobalStyle />
-    <Normalize />
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="search" element={} />
-      </Routes>
-    </BrowserRouter>
-  </>
-);
+function Root() {
+  return (
+    <>
+      <GlobalStyle />
+      <Normalize />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="search" />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
 
 // eslint-disable-next-line react/jsx-filename-extension
 ReactDOM.render(<Root />, document.getElementById("root"));
