@@ -1,24 +1,24 @@
 const branches = [
-  'create-app-skeleton',
-  'header',
-  'footer',
-  'hero-section',
-  'info-section',
-  'subreddit-form',
-  'load-the-data',
-  'heatmap',
-  'posts-table',
-  'readme',
+  "create-app-skeleton",
+  "header",
+  "footer",
+  "hero-section",
+  "info-section",
+  "subreddit-form",
+  "load-the-data",
+  "heatmap",
+  "posts-table",
+  "readme",
 ];
 
 function describeOnBranches(startBranch) {
   const startBranchIndex = branches.indexOf(startBranch);
 
   if (startBranchIndex === -1) {
-    throw new Error('start branch for describeOnBranches is unknown. Typo?');
+    throw new Error("start branch for describeOnBranches is unknown. Typo?");
   }
 
-  const branchName = Cypress.env('branch-name');
+  const branchName = Cypress.env("branch-name");
 
   // this is not a pull request, probably local machine
   // tests should run
