@@ -8,6 +8,11 @@ import "@fontsource/montserrat";
 import App from "./App";
 
 const GlobalStyle = createGlobalStyle`
+
+  *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
   body {
     font-family: "montserrat", sans-serif;
     font-size: 16px;
